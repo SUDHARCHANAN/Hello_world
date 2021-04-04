@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<center>
+<h2><u>.....Calculator.....</u></h2>
+<script language="javascript">
+function calc(ch)
+{
+	if(ch=="=")
+		f1.t1.value=eval(f1.t1.value);
+	else
+		f1.t1.value+=ch;
+}
+</script>
+<body style="background: #2F4F4F">
+	<div class="style">
+		<h2>Smart Calculator</h2>
+		<form name="f1">
+			<input type="text" name="t1" size="20"><br><br>
+			<input type="reset" value="Del" onclick="calc('Del')"><br><br>
+			<input type="button" value="7" onclick="calc('7')">
+			<input type="button" value="8" onclick="calc('8')">
+			<input type="button" value="9" onclick="calc('9')">
+			<input type="button" value="+" onclick="calc('+')"><br><br>
+			<input type="button" value="6" onclick="calc('6')">
+			<input type="button" value="5" onclick="calc('5')">
+			<input type="button" value="4" onclick="calc('4')">
+			<input type="button" value="-" onclick="calc('-')"><br><br>
+			<input type="button" value="1" onclick="calc('1')">
+			<input type="button" value="2" onclick="calc('2')">
+			<input type="button" value="3" onclick="calc('3')">
+			<input type="button" value="*" onclick="calc('*')"><br><br>
+			<input type="button" value="0" onclick="calc('0')">
+			<input type="button" value="." onclick="calc('.')">
+			<input type="button" value="=" onclick="calc('=')">
+			<input type="button" value="/" onclick="calc('1)"><br><br>
+		</form>
+	</div>
+</center>
+</body>
+</div>
+</html>
